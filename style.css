@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: aqua;
+}
+.header ul{
+    display: inline-flex;
+    float: right;
+}
+.header ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.page1{
+    display: inline-flex;
+    background-color:lightcyan;
+    margin-top: 10px;
+
+}
+
+.page1 h1{
+    text-align: center;
+    color:blue;
+}
+
+
+.page1 p{
+    text-align: center;
+     color:black;
+     text-align: justify;
+     padding: 10px;
+}
+
+
+.page1 img{
+    padding: 10px;
+}
+
+
+
+.page2{
+    display: inline-flex;
+    background-color: darkslateblue;
+    margin-top: 10px;
+}
+
+
+.page2 p{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-align: justify;
+}
+
+
+.page2 h1{
+    text-align: center;
+    color:plum;
+}
+
+
+.page2 img{
+    padding: 10px;
+}
+
+
+
+
+.page3{
+    text-align: center;
+    background-color: deepskyblue;
+}
+
+
+.page4{
+    text-align: center;
+    background-color: deepskyblue;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="choice" onkeyup="selectCountry()">
+
+    <select name="country" id="country">
+    </select>
+    <script>
+        function selectCountry() {
+            country = ["Afganistan", "Bangladesh", "Bhutan", "Pakistan", "Saudi", "United States"];
+            var choice = document.getElementById("choice").value.toLowerCase();
+            var select = document.getElementById('country');
+
+
+
+            for (let i = 0; i < country.length; i++) {
+                if (country[i].toLowerCase().charAt(0) == choice) {
+                    var option = document.createElement("option");
+                    option.value = country[i];
+                    option.text = country[i];
+                    select.appendChild(option);
+                    console.log(country[i]);
+                }
+
+            }
+        }
+    </script>
+
+</body>
+
+</html>
