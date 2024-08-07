@@ -1,0 +1,16 @@
+<html>
+
+<body>
+    <script>
+        var k = 1;
+        function b() {
+            for (var k = 1; k < 11; k++) {
+                setTimeout(console.log(k), function b() { k * 2000 });
+
+            }
+        }
+        b();
+    </script>
+</body>
+
+</html>
